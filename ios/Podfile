@@ -8,6 +8,7 @@ target 'ess' do
 
   use_react_native!(:path => config["reactNativePath"])
 
+
   target 'essTests' do
     inherit! :complete
     # Pods for testing
